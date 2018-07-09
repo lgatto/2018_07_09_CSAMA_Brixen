@@ -65,6 +65,7 @@ class: middle
 
 ---
 class: middle
+
 ### Overview
 
 ![](./Figures/overview2.jpg)
@@ -335,6 +336,15 @@ class: middle
 |MS1 |XIC        |SILAC, 15N |
 |MS2 |Counting   |iTRAQ, TMT |
 
+---
+class: middle center
+
+### Label-free MS2: Spectral counting
+
+![](./Figures/pbase.png)
+
+From the [Pbase](https://bioconductor.org/packages/release/bioc/html/Pbase.html) package.
+
 
 ???
 
@@ -343,6 +353,8 @@ Advantages of **spectral counting**:
 
 ---
 class: middle center
+
+### Labelled MS2: Isobaric tagging
 
 ![](./Figures/itraq.png)
 
@@ -356,7 +368,11 @@ Advantages of **isobaric tagging**:
 ---
 class: middle center
 
-![](./Figures/serine-plot-1.png)
+### Label-free MS1: extracted ion chromatograms
+
+![](./Figures/chrom_peaks.png)
+
+Credit: [Johannes Rainer](https://github.com/jotsetung/)
 
 ???
 
@@ -365,6 +381,8 @@ Advantages of **label-free**:
 
 ---
 class: middle center
+
+### Labelled MS1: SILAC
 
 ![](./Figures/Silac.gif)
 
@@ -381,6 +399,7 @@ Advantages of **isotope labelling**:
 
 ---
 class: middle
+
 ### Quantitation
 
 
@@ -472,6 +491,7 @@ What we have seen so far.
 
 ---
 class: middle
+
 ### Challenges
 
 ![](./Figures/only_prep.jpg)
@@ -482,6 +502,7 @@ Turning the many buttons independently.
 
 ---
 class: middle
+
 ### Challenges
 
 ![](./Figures/only_id.jpg)
@@ -502,6 +523,7 @@ Turning the many buttons independently.
 
 ---
 class: middle
+
 ### Challenges
 
 ![](./Figures/linked.jpg)
@@ -526,6 +548,22 @@ class: middle
 
 How could we control the whole process, and directly account for the
 dependency of these different parts of a typical proteomcis pipeline?
+
+---
+
+### Bioconductor software infrastructure
+
+#### Raw data
+
+`MSnbase::readMSData` to read raw data into R as `MSnExp`.
+
+#### Identification data
+
+`MSnbase::readMzIdData` as a `data.frame`.
+
+#### Quantitative data
+
+`MSnbase::readMSData2` as an `MSnSet`.
 
 ---
 class: middle
