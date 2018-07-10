@@ -545,17 +545,34 @@ dependency of these different parts of a typical proteomcis pipeline?
 
 ### Bioconductor software infrastructure
 
-#### Raw data
+#### Raw data: `mzML`
 
 `MSnbase::readMSData` to read raw data into R as `MSnExp`.
 
-#### Identification data
+#### Identification data: `mzid`
 
 `MSnbase::readMzIdData` as a `data.frame`.
 
 #### Quantitative data
 
 `MSnbase::readMSData2` as an `MSnSet`.
+
+???
+
+What are we going to see in the
+[lab](https://rawgit.com/lgatto/bioc-ms-prot/master/lab.html) this
+afternoon
+
+- I'll start with a refreshed of what I have presented now
+- An overview of packages and functionality available in various
+  R/Bioc packages
+- Where to find data
+- Existing infrastructure for raw, id and quant data
+- Some routes of general data analysis, such as differential analysis,
+  classification, dimensinality reduction, ... as seen during other
+  lectures.
+
+Also mention the **on-line** tag.
 
 ---
 class: middle
