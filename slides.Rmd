@@ -273,8 +273,8 @@ Rates: Two Sides of the Same Coin](https://pubs.acs.org/doi/abs/10.1021/pr700739
 ???
 
 
-- FDR = B/(A+B)
-- PEP = b/(a+b)
+- (global) FDR = B/(A+B)
+- (local) fdr = PEP = b/(a+b)
 
 
 ---
