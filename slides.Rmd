@@ -338,10 +338,9 @@ From the [Pbase](https://bioconductor.org/packages/release/bioc/html/Pbase.html)
 
 ???
 
-Advantages of **spectral counting**:
+Comments of **spectral counting**:
 - easy, but *semi-quantitative*
-- **Note depth/coverage* and compare to RNA-seq.
-
+- **Note depth/coverage* and compare to RNA-seq.**
 
 ---
 class: middle center
@@ -352,7 +351,7 @@ class: middle center
 
 ???
 
-Advantages of **isobaric tagging**:
+Comments of **isobaric tagging**:
 - multiplexing, albeit limited
 - limited problem with missing values
 - easy to process (fewer parameters to set)
@@ -368,8 +367,10 @@ Credit: [Johannes Rainer](https://github.com/jotsetung/)
 
 ???
 
-Advantages of **label-free**:
--
+Comments on **label-free**:
+
+- Data processing
+- Independent runs, NAs
 
 ---
 class: middle center
@@ -382,9 +383,7 @@ Credit: Wikimedia Commons.
 
 ???
 
-**TODO**: better explanaltion, or leave it to Jo
-
-Advantages of **isotope labelling**:
+Comments of **isotope labelling**:
 - like red/green microarrays
 - can be extended to 3, but risk of overlap of light, medium and heavy
   peaks
