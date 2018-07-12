@@ -340,7 +340,7 @@ From the [Pbase](https://bioconductor.org/packages/release/bioc/html/Pbase.html)
 
 Comments of **spectral counting**:
 - easy, but *semi-quantitative*
-- **Note depth/coverage* and compare to RNA-seq.**
+- **Note depth/coverage and compare to RNA-seq.**
 
 ---
 class: middle center
@@ -579,7 +579,7 @@ afternoon
   classification, dimensinality reduction, ... as seen during other
   lectures.
 
-Also mention the **on-line** tag.
+Also mention **tags**.
 
 ---
 class: middle
